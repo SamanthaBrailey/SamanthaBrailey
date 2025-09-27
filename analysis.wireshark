@@ -1,0 +1,47 @@
+# Full Analysis — Suricata + Wireshark Project
+
+## Summary
+We simulated an attacker probing for a hidden admin page (`/secret_admin_area`) by sending HTTP requests to a local Python server. Wireshark captured the packets, and a custom Suricata rule detected the request and generated an alert in `fast.log`.
+
+---
+
+## Evidence Collected
+1. **Wireshark PCAP** — shows `HEAD /secret_admin_area` HTTP request.
+2. **Suricata fast.log** — contains alert `[HTTP request to /secret_admin_area]`.
+3. **Screenshots** — proof of server, traffic, Suricata run, and logged alerts.
+
+---
+
+## Why This Matters
+- Attackers often scan for hidden endpoints like `/admin`, `/login`, or `/secret_area` to find weak points.  
+- Detecting these probes early is critical for **intrusion detection** and **SOC operations**.  
+- Writing IDS rules builds the foundation for **network security monitoring** and **blue team analysis**.
+
+---
+
+## Possible False Positives
+- Automated scanners or vulnerability tools during penetration tests.  
+- Legitimate internal health checks hitting unknown URIs.
+
+---
+
+## Next Steps / Remediation
+- Restrict access to admin areas with authentication and IP allowlists.  
+- Deploy WAF rules to block requests to sensitive URIs.  
+- Correlate alerts with logs (Apache/Nginx) for additional context.  
+
+---
+
+## SOC Playbook (When This Alert Fires)
+1. Collect the PCAP for the session.  
+2. Check the source IP reputation (internal vs external).  
+3. Review web server logs for repeated scanning patterns.  
+4. Block or isolate suspicious IP if malicious.  
+5. Escalate if persistent or tied to known attacker infrastructure.  
+
+---
+
+## Real-World Use Cases
+- Portfolio: shows ability to **write, test, and validate Suricata rules**.  
+- SOC/IR: practice exercise for alert triage, log correlation, and packet validation.  
+- Threat hunting: extend rules to catch other suspicious URIs, methods, or user-agents.  
