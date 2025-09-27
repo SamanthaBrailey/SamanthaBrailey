@@ -16,7 +16,7 @@ This portfolio is where I document my hands-on projects, labs, and research in c
 
 ## 🔹 My Projects
 
-### 1. Kali Linux — Nmap Mini Project
+### 1. Kali Linux — Nmap Mini Project https://github.com/SamanthaBrailey/Kali-Linux-Nmap-Mini-Project/blob/main/README.md
 **Goal:** Demonstrate basic network reconnaissance skills used in cyber operations (SOC / Incident Response).
 
 ---
