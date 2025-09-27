@@ -54,3 +54,32 @@ Command:
 ---
 
 *(More projects will be added soon — cloud security labs, packet analysis, password auditing, etc.)*
+## 🔹 Project 2 — Suricata Rule + Wireshark
+
+---
+
+### Step 1 — Start Local HTTP Server
+![Step 1](https://i.imgur.com/xyW1mia.png)
+
+---
+
+### Step 2 — Generate HTTP Traffic + Capture in Wireshark
+![Step 2a](https://i.imgur.com/DHkGJu9.png)  
+![Step 2b](https://i.imgur.com/OXTK2Kh.png)  
+![Step 2c](https://i.imgur.com/nPZ5aTY.png)  
+![Step 2d](https://i.imgur.com/wokvHwb.png)
+
+---
+
+### Step 3 — Install Suricata IDS
+![Step 3](https://i.imgur.com/nPZ5aTY.png)
+
+---
+
+### Step 4 — Create & Run Custom Rule
+![Step 4](https://i.imgur.com/S017YSF.png)
+
+---
+
+### Step 5 — Suricata Alert Logged
+![Step 5](https://i.imgur.com/tCqM9Fj.png)
