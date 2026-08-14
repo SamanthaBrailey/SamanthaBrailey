@@ -25,6 +25,9 @@ This portfolio is where I document my hands-on projects, labs, and research in c
 - [KQL Threat Hunting Practice](https://github.com/SamanthaBrailey/kql-threat-hunting-starter)  
   *I used KQL and Windows Sysmon events to practice investigating file creation, registry changes, and network connections. The repository includes my queries, hunt write-ups, and a template for recording lab results.*
 
+- [Employee Phishing Awareness](https://github.com/SamanthaBrailey/phishing-awareness-training)  
+  *Created an employee security-awareness package covering phishing warning signs, business email compromise, QR-code phishing, MFA fatigue, reporting, and escalation.*
+
 ---
 
 *(More projects will be added soon — cloud security labs, packet analysis, password auditing, etc.)*
