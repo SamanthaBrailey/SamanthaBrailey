@@ -28,6 +28,9 @@ This portfolio is where I document my hands-on projects, labs, and research in c
 - [Employee Phishing Awareness](https://github.com/SamanthaBrailey/phishing-awareness-training)  
   *Created an employee security-awareness package covering phishing warning signs, business email compromise, QR-code phishing, MFA fatigue, reporting, and escalation.*
 
+- [Windows Vulnerability Management Lab](https://github.com/SamanthaBrailey/windows-vulnerability-management-lab)  
+  *Identified an SMB signing weakness in an authorized Windows lab, applied a security-policy remediation, and verified the result with a before-and-after Nmap assessment.*
+
 ---
 
 *(More projects will be added soon — cloud security labs, packet analysis, password auditing, etc.)*
