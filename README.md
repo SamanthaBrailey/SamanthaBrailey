@@ -22,10 +22,9 @@ This portfolio is where I document my hands-on projects, labs, and research in c
 - [Suricata Rule + Wireshark Project](https://github.com/SamanthaBrailey/Suricata-Rule-Wireshark/blob/main/README.md)  
   *Shows how to detect suspicious HTTP traffic using Wireshark and custom Suricata IDS rules.*
 
+- [KQL Threat Hunting Practice](https://github.com/SamanthaBrailey/kql-threat-hunting-starter)  
+  *I used KQL and Windows Sysmon events to practice investigating file creation, registry changes, and network connections. The repository includes my queries, hunt write-ups, and a template for recording lab results.*
+
 ---
 
 *(More projects will be added soon — cloud security labs, packet analysis, password auditing, etc.)*
-
-
-- [KQL Threat Hunting Practice](https://github.com/SamanthaBrailey/kql-threat-hunting-starter)  
-  *I used KQL and Windows Sysmon events to practice investigating file creation, registry changes, and network connections. The repository includes my queries, hunt write-ups, and a template for recording lab results.*
